@@ -1,0 +1,49 @@
+#head{
+    padding-left: 10px;
+}
+p {
+padding-left: 40px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: large;
+  }
+
+  body {
+
+	background-image: linear-gradient(	#FF2400   , #b8bc86   ,#008080   );
+    
+}
+#head {
+  color: purple;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 50;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  hr {
+    border:none;
+    border-top:1px dashed white;
+    color:white;
+    background-color:#008080;
+    height:1px;
+    width:100%;
+    }
+
+    h5{
+        padding-left: 35%;
+    }
+  
+  
+
